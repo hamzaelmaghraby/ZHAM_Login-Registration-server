@@ -1,0 +1,28 @@
+{
+  "name": "zham_login_registration",
+  "version": "1.0.0",
+  "description": "Login & registration service",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "hamza",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.5",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzaelmaghraby/ZHAM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hamzaelmaghraby/ZHAM/issues"
+  },
+  "homepage": "https://github.com/hamzaelmaghraby/ZHAM#readme"
+}
