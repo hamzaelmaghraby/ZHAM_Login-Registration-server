@@ -44,6 +44,7 @@ router.post('/', async (req,res) => {
     const savedpost =await user.save();
     res.status(201).send({body : 'user created successfully'});
     }catch(err){
+        console.log(user);
         res.status(500).send({message : err});
     }
 });

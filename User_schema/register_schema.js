@@ -13,4 +13,4 @@ const UserSchema = mongoose.Schema({
     State: Boolean
 });
 
-module.exports = mongoose.model('Users',UserSchema);
+module.exports = mongoose.model('User',UserSchema);
